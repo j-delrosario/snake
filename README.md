@@ -1,12 +1,15 @@
-# OpenGL-Core
-Work-in-progress OpenGL library that aims to provide a powerful sandbox for you to learn or experiment with OpenGL, and graphics programming in general.
+# OpenGL-Sandbox
+Snake game built using custom OpenGL framework;
+found here https://github.com/j-delrosario/OpenGL.git
+originally forked from https://github.com/TheCherno/OpenGL.git.
 
 ## Usage
 
-Currently only "officially" supports Windows - Mac and Linux support is coming soon.
+Currently only supports Windows.
 
+Using Premake
 ```
-git clone --recursive https://github.com/TheCherno/OpenGL
+premake5 vs2019
 ```
-
-Run `scripts/Win-Premake.bat` and open `OpenGL-Sandbox.sln` in Visual Studio 2019. `OpenGL-Sandbox/src/SandboxLayer.cpp` contains the example OpenGL code that's running.
+`OpenGL-Sandbox.sln` in vs2019.
+`OpenGL-Sandbox/src/` contains the game's files.
